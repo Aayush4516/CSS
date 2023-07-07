@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>text effects</title>
+<style> 
+div.test {
+  white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden; 
+  border: 1px solid #000000;
+}
+
+div.test:hover {
+  overflow: visible;
+}
+p.test {
+  width: 11em; 
+  border: 1px solid #000000;
+  word-wrap: break-word;
+}
+</style>
+</head>
+<body>
+
+<h1>The word-wrap Property</h1>
+
+<p class="test">This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
+
+</body>
+</html>
+
+</style>
+</head>
+<body>
+
+<p>Hover over the two divs below, to see the entire text.</p>
+<div class="test" style="text-overflow:ellipsis;">This is some long text that will not fit in the box</div>
+<br>
+<div class="test" style="text-overflow:clip;">This is some long text that will not fit in the box</div>
+
+</body>
+</html>

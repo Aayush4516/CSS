@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS1</title>
+<style>
+div {
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
+}
+p.one {
+  border-style: solid;
+  border-color: red blue;
+  border-width: 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+  margin: 25px 50px 75px 100px;
+}
+
+p.three {
+    border-style: solid;
+    border-width: 5px 20px; 
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+p.four {
+    border-style: dotted solid double dashed; 
+    padding : 20px 30px;
+}
+
+p.five {
+    border: 5px solid red;
+}
+
+p.six {
+    border: 5px solid pink;
+    border-radius: 10px;
+}
+p.ex1 {
+  border: 4px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+  outline-offset: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>The border-width Property</h2>
+<p>This property specifies the width of the four borders:</p>
+
+<p class="one">Some text.</p>
+<p class="two">Some text.</p>
+<p class="three">Some text.</p>
+<p class="four">Some text.</p>
+<p class="five">Some text.</p>
+<p class="six">Some text.</p>
+<p class="ex1">Some Text</p>
+
+<p><b>Note:</b> The "border-width" property does not work if it is used alone. 
+Always specify the "border-style" property to set the borders first.</p>
+
+<div>This div element has a height of 100px and a width of 500px.</div>
+
+
+</body>
+</html>
+
+
